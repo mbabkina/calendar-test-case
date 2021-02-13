@@ -1,0 +1,73 @@
+.select-form {
+  height: 30px;
+  border-radius: 5px;
+  border: 2px ridge black;
+  outline: none;
+  padding: 5px;
+}
+.calendar-table {
+  width: 80%;
+  border-spacing: 0;
+  padding: 10px;
+}
+.calendar-table td {
+  background-color: white;
+  border: 1px solid #696969;
+  width: 15%;
+  text-align: center;
+}
+.calendar-table th {
+  border: 1px solid #696969;
+  width: 15%;
+  text-align: center;
+  background-color: #DCDCDC;
+}
+.calendar-table .cell-filled {
+  background-color: #00FA9A;
+}
+.calendar-table .cell-filled:hover {
+  font-weight: bold;
+}
+body {
+  background-color: lightsteelblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app-wrapper {
+  width: 80vw;
+}
+
+.head-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.options-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.options-wrapper .button-add {
+  max-height: 30px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px ridge black;
+  margin-left: 10px;
+  background-color: #DCDCDC;
+  outline: none;
+  padding: 5px;
+}
+
+.calendar-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.select-person {
+  max-height: 30px;
+  outline: none;
+}
